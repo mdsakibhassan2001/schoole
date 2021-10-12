@@ -1,0 +1,926 @@
+
+/* ============================Font =====================*/
+
+@import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400&display=swap');
+
+
+
+
+/* ============================Font =====================*/
+
+
+
+
+/* =======================Heder Section Start===================== */
+
+*body{
+	 font-family: 'Rubik',Helvetica,Arial,Lucida,sans-serif;
+}
+.navbar{
+	
+	background:#fff;
+	display: flex;
+	padding: 30px !important;
+}
+.nav-item{
+		
+	padding-left:1em;
+}
+
+.nav-link{
+	color: #3e3939 !important;
+	text-transform:uppercase;
+}
+
+.header-area.sticky{
+	
+	position:fixed;
+	left: 0;
+	right: 0;
+	width:100%;
+	background:#fff;
+	z-index:9;
+	transition:.10s;
+	padding: 10px !important;
+	padding-left: 30px !important;
+	padding-right: 30px !important;
+	
+}
+
+
+
+
+
+.current a{
+	 color: #0051ff !important;
+	 text-align: center;
+	
+
+}
+
+.header-area.sticky{
+	
+	opacity:1;
+	transition:.3s;
+	
+}
+.header-area.sticky .navbar{
+	
+	background-color: #d9e4ef;
+	transition:.3s;
+}
+
+    
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgb(31 32 33);
+    text-align: center;
+}
+
+.nav-link:hover {
+    color:#1D3B7B !important;
+    transition: .3s;
+}
+
+.login_logo {
+    color: #fff !important;
+    background: #1D3B7B !important;
+    border-radius: 5px;
+    width: 80px;
+    height: 35px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 5px;
+    text-transform: uppercase;
+}
+
+.login_logo:hover{
+	text-decoration: none;
+	color: #ddd !important;
+    transition: .3s;
+}
+.carousel-item{
+
+	height:  calc(100vh - 100px);
+}
+.carousel-img-1{
+	background: url('images/slide-image-1.jpg');
+	background-size:cover;
+}
+
+.carousel-img-2{
+	background: url('images/slide-image-2.jpg');
+	background-size:cover;
+}
+
+.carousel-img-3{
+	background: url('images/slide-image-3.jpg');
+	background-size:cover;
+}
+
+	
+	
+	
+.dark-overlay-1{
+
+	top:0;
+	left:0;
+	height:100%;
+	width:100%;
+	background:rgba(0,0,0,0.7);
+	position:absolute;
+	
+}
+
+
+
+
+
+/* =======================Heder Section End===================== */
+
+
+
+
+
+/* ===============================About Section Start============================= */
+
+
+	
+.about-section{
+
+	background: #F5F5F5;
+
+
+	}
+
+
+
+
+.about-section .card-body{
+
+	background: #FFFFFF;
+	
+}
+
+.about-section h4{
+	position: relative;
+	color: #1D3B7B;
+
+}
+
+.about-section h3{
+	position: relative;
+	color: #1D3B7B;
+
+}
+
+.underline {
+    background: #1D3B7B;
+    margin: 0 auto;
+    width: 163px;
+    height: 1px;
+}
+
+
+.underline_full {
+   	background: #e4e8ef;
+    margin: 0 auto;
+    width: 900px;
+    height: 2px;
+}
+
+
+
+
+.about-section img{
+	border-radius: 5px;
+	
+}
+
+.about-section p{
+
+	font-size: 20px;
+	color: #3e3939;
+}
+
+.about-section h4{
+	font-size: 40px;
+}
+
+.about-section .link_card_logo{
+	margin-top: 30px;
+
+
+
+}
+.about-section .link_card_logo i{
+
+	padding: 10px;
+	color: #1D3B7B;
+	font-size: 20px;
+	border-radius: 50%;
+	padding: 20px;
+	background:  #DFDFDF;
+
+}
+
+.about-section .link_logo{
+	margin-top: 30px;
+
+
+
+}
+.about-section .link_logo i {
+    color: #1D3B7B;
+    font-size: 25px;
+    
+    padding: 10px;
+}
+
+
+
+
+/*=========================== Principal Section Start=========================== */
+
+.principal_section{
+
+	background: #ddd;
+	padding-top: 100px;
+	padding-bottom: 100px;
+
+}
+
+
+.pricipal_section_left_of div{
+
+	background:  #1D3B7B;
+	height: 600px;
+	color: #fff;
+	border-radius: 10px;
+	border-radius: 15px 0px 0px 15px  ;
+
+}
+
+
+.principal_pading{
+	padding: 30px;
+	padding-top: 70px;
+}
+.principal_section_2::before{
+position: absolute;
+top: 0;
+left: 0;
+content: " ";
+width:100%;
+height:100%;
+background: #1D3B7B;
+opacity: 0.9;
+
+}
+
+
+
+.principal_section_left{
+
+	padding-top: 150px;
+	padding-bottom: 150px;
+}
+
+
+
+.principal_section_left span{
+
+	text-align: right;
+	
+}
+
+ .principal_section h3 {
+ 	font-family: 'Rubik', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.principal_section h4 {
+	letter-spacing: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Rubik', sans-serif;
+}
+
+
+
+
+
+
+.principal_section img{
+
+	
+	width: 100%;
+	height: 600px;
+	border-radius: 0px 15px 15px 0px  ;
+
+
+}
+
+
+.signe{
+	padding-top: 25px;
+	font-family: 'Italianno', cursive;
+	font-size: 35px;
+}
+/*=========================== Principal Section End=========================== */
+
+/* =========================Facilities and Organizations Start====================== */
+
+
+
+.facilities_section_left{
+
+
+
+}
+.facilities_section_left h4 {
+	font-family: 'Rubik', sans-serif;
+    font-size: 17px;
+    color: #1D3B7B;
+    padding-bottom: 16px;
+}
+.facilities_section_left h3 {
+	font-family: 'Rubik', sans-serif;
+    font-size: 40px;
+    padding-bottom: 16px;
+}
+
+.facilities_section_left p{
+
+	 padding-bottom: 16px;
+	 font-size: 17px !important;
+	 font-family: 'Rubik',Helvetica,Arial,Lucida,sans-serif;
+	 font-family: 'Rubik', sans-serif;
+}
+
+.facilities_section_left img{
+
+	border-radius: 10px;
+}
+
+
+
+
+.card-body{
+	
+	background:  #1D3B7B;
+	color: #fff;
+	
+}
+.card-header{
+	
+}
+.card-header h4 a{
+
+	color: #1D3B7B !important;
+	cursor: pointer;
+	
+}
+
+.card-header h4{
+	
+	text-align: center !important;
+	font-size: 20px !important;
+}
+
+
+
+/* =========================Facilities and Organizations End====================== */
+
+/* ===============================About Section End============================= */
+
+/* ================================Our Teachers Section Start===================== */
+
+
+.teacher_secton_head{
+
+}
+
+
+
+
+.teacher_secton_head h4{
+
+	font-size: 16px;
+	letter-spacing: 5px;
+	font-family: 'Rubik', sans-serif;
+	color:#1d3b7b;	
+}
+
+.teacher_secton_head h3 {
+    font-size: 40px;
+    padding-bottom: 12px;
+    font-family: 'Rubik', sans-serif;
+}
+
+.teacher_secton_head p {
+    font-size: 18px;
+    font-family: 'Rubik', sans-serif;
+}
+
+
+.teacher_secton_buttom{
+
+
+}
+
+.teacher_secton_buttom .card-body{
+
+	background: #fff;
+	color: #000;
+
+
+	
+}
+
+.teacher_secton_buttom .card-body h4{
+
+	font-family: 'Rubik', sans-serif;
+	font-size: 20px;
+	margin-bottom: 18px;
+
+	
+	
+}
+
+.teacher_secton_buttom .card-body span{
+
+	font-family: 'Rubik', sans-serif;
+	opacity: 0.5;
+	
+}
+
+.teacher_secton_buttom .card-body p{
+	font-family: 'Rubik', sans-serif;
+	font-size: 16px;
+
+	
+}
+
+
+.teacher_secton_buttom img {
+    height: 300px !important;
+    width: 100%!important;
+}
+
+
+/* ================================Our Teachers Section End===================== */
+
+
+
+/* ===============================Testimonials Section Start===================== */
+
+
+.testimonials_section{
+	
+	background: #E6E6EA;
+	padding-top: 100px !important;
+	padding-bottom: 100px !important;
+}
+
+.testimonials_section_top h4{
+
+	font-size: 20px;
+	letter-spacing: 5px;
+	padding-bottom: 10px;
+	font-family: 'Rubik', sans-serif;
+	color: #1D3B7B;
+
+}
+
+.testimonials_section_top h3{
+
+	font-size: 40px;
+	padding-bottom: 10px;
+	font-family: 'Rubik', sans-serif;
+}
+
+
+
+.testimonials_section_buttom p{
+
+	font-family: 'Rubik', sans-serif;
+	font-size: 16px;
+	color: #000;
+
+}
+
+.testimonials_section_buttom .card-body{
+
+	background: #fff;
+	height: 370px;
+}
+.testimonials_section_buttom img {
+    align-items: center;
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    margin-left: 33%;
+    
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.testimonials_section_buttom .card-header{
+	background: #1D3B7B;
+}
+
+
+
+/* ===============================Testimonials Section End======================= */
+
+
+
+
+/* =======================Footer Section Start===================== */
+
+
+.footer_section{
+	padding-top: 70px !important;
+	background: url('images/footer_bag_img.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+
+
+}
+
+.footer_section::before{
+
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	content: "";
+	position: absolute;
+	background: #000;
+	opacity: 0.8;
+
+}
+
+
+.footer_top_left-1 .card{
+	background:#1D3B7B ;
+	height: 200px;
+	width: 250px;
+	border-radius: 10px;
+	color: #fff;
+}
+
+.footer_top_left-1 h3 {
+    font-size: 48px;
+    text-align: center;
+    margin-top: 35px;
+    font-family: 'Rubik', sans-serif;
+    letter-spacing: 7px;
+}
+
+.footer_top_left-1 h4 {
+    font-size: 20px;
+    text-align: center;
+   	letter-spacing: 7px;
+   	text-transform: uppercase;
+   	font-family: 'Rubik', sans-serif;
+   	margin-top: 15px;
+}
+
+
+
+
+
+.footer_top_left-2 .card{
+	background:#fff ;
+	height: 200px;
+	width: 250px;
+	border-radius: 10px;
+	color: #000;
+}
+
+.footer_top_left-2 h3 {
+    font-size: 48px;
+    text-align: center;
+    margin-top: 35px;
+    font-family: 'Rubik', sans-serif;
+    letter-spacing: 7px;
+}
+
+.footer_top_left-2 h4 {
+    font-size: 20px;
+    text-align: center;
+   	letter-spacing: 7px;
+   	text-transform: uppercase;
+   	font-family: 'Rubik', sans-serif;
+   	margin-top: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.footer_top_right .card {
+    height: 414px;
+    border-radius: 10px;
+}
+
+.footer_top_right h3{
+	padding-top: 60px;
+	padding-left: 50px;
+	font-family: 'Rubik', sans-serif;
+	font-size: 40px;
+	margin-bottom: 5px;
+}
+
+.footer_top_right .underline{
+
+	padding-left: 50px;
+	width: 233px;
+
+}
+
+.footer_top_right p{
+	font-size: 14px;
+	padding-left: 50px;
+	font-family: 'Rubik', sans-serif;
+
+
+}
+
+.footer_top_right p small{
+
+	color: #FF7355;
+	font-size: 14px;
+	font-family: 'Rubik', sans-serif;
+}
+
+.footer_top_right a{
+
+	margin-left: 60px;
+	width: 130px;
+	height: 50px;
+	
+	padding: 10px 25px;
+	color: #1D3B7B;
+	border: 1px solid #000;
+	border-radius: 25px;
+	text-decoration: none;
+	margin-top: 30px;
+
+
+
+}
+
+.footer_top_right a:hover{
+	text-decoration: none;
+	background: #1D3B7B;
+	color: #fff;
+	transition: 0.3s;
+}
+
+
+
+
+.footer_Bottom{
+
+	padding: 70px 0px;
+	font-family: 'Rubik', sans-serif;
+}
+
+.footer_Bottom span {
+   
+    font-size: 12px;
+    letter-spacing: 5px;
+    color: #fff;
+    
+}
+.footer_Bottom p{
+	margin-top: 17px;
+	color: #fff;
+	font-size: 14px;
+	font-family: 'Rubik', sans-serif;
+	
+}
+
+.footer_Bottom p small{
+	
+	color: #FF9C02;
+	font-size: 14px;
+	font-family: 'Rubik', sans-serif;
+	
+}
+
+
+
+	/* ==========================Final Footer Start=================== */
+
+
+#footerId{
+	
+	background:#000;
+}
+
+#aboutslideId{
+	
+	background:url('images/about-2.jpg');
+	background-size:cover;
+	
+	height:250px;
+	position:relative;
+	
+}
+
+#servicesslideId{
+	
+	background:url('images/secvices.jpg');
+	background-size:cover;
+	
+	height:250px;
+	position:relative;
+	
+}
+
+#blog-img{
+	height:200px;
+}
+
+#contactslideId[
+	background:url('images/contuct-1.jpg');
+]
+
+{
+	
+	background:url('images/Tanjin tisa.jpg');
+	background-size:cover;
+	background-attachment:fixed;
+	height:250px;
+	position:relative;
+	
+}
+
+
+	
+
+
+
+.dark-overlay-4{
+	
+	
+	background:rgba(0,0,0,0.7);
+	top:0;
+	left:0;
+	height:100%;
+	width:100%;
+	position:absolute;
+	
+}
+
+
+.footer_class .link_logo a{
+
+	padding: 0px 20px;
+	color: #fff;
+	font-size: 25px;
+
+}
+
+#footerId p {
+    font-size: 14px;
+    margin-top: 10px;
+    font-family: 'Rubik', sans-serif;
+}
+/* ==========================Final Footer End=================== */
+
+/* =======================Footer Section End===================== */
+
+
+
+/* ========================Login Section Start======================= */
+
+
+.login_section{
+
+	padding: 80px 0px;
+	height:  calc(100vh - 100px);
+	background: #ddd;
+
+}
+
+.login_section .card{
+	height: 500px;
+	background: #1D3B7B;
+	border-radius: 20px;
+	padding-top: 30px;
+}
+
+.login_section h3{
+	font-family: 'Rubik', sans-serif;
+	color: #fff;
+	text-align: center;
+	padding-top: 20px;
+
+}
+
+.login_section form{
+
+	margin-top: 40px;
+
+}
+
+
+.login_section .form-group{
+
+	padding-top: 10px;
+}
+
+
+.login_section .form-check{
+	margin-bottom: 20px;
+	font-family: 'Rubik', sans-serif;
+	color: #fff;
+}
+
+
+.login_section button{
+	font-family: 'Rubik', sans-serif;
+	background:  #ddd; 
+	width: 100px;
+	align-content: center;
+}
+.login_section button:hover{
+	color: #1D3B7B;
+}
+
+.login_section p{
+	text-align: center;
+	color: #fff;
+	margin-top: 40px;
+	font-size: 12px;
+	font-family: 'Rubik', sans-serif;
+}
+
+.login_section p span{
+	color:  #FF9C02;
+	cursor: pointer;
+}
+
+/* ========================Login Section End======================= */
+
+
+
+/* ============================Media Sction Start======================== */
+
+@media(max-width:992px)
+
+
+}
+    
+@media(max-width:767px)
+{
+	.nav-item{
+		
+	padding-left:0em !important;
+}
+.getstarted{
+	min-height:300px;
+}
+
+
+
+
+
+
+
+
+
+}
+
+@media(max-width: 480px)
+{
+	.carousel{
+		h2{
+			font-size:2.5rem;
+		}
+	}
+	#getstarted{
+	min-height:350px;
+}
+		
+	
+
+
+
+/* ============================Media Sction End======================== */
